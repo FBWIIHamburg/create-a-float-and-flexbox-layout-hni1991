@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.hor{
+    float: left;
+    display: flex;
+    width: 30% ;
+    height: 100vh;
+    background: yellow;
+}
+
+.contain{
+    float: left;
+    width: 70%;
+    height: 100vh;
+
+}
+
+.hed{
+    height: 20vh;
+    background: red;
+    width: 100%;
+}
+.sidel{
+    display: flex;
+    float: left;
+    width: 70%;
+    height: 60vh;
+    background: gray;
+}
+.sider{
+    overflow: hidden;
+    width: 30%;
+    height: 80vh;
+    background: green;
+}
+.foot{
+    overflow: hidden;
+    float: left;
+    width: 70%;
+    height: 20vh;
+    background: blue;
+}
